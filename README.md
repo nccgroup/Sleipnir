@@ -3,6 +3,8 @@
 Sleipnir is a small executable designed for quick upload via the send keys method within Loki, hence the lack of an icon. Sleipnir was developed to provide two-way file transfers at a much quicker pace than the send keys method could provide by using virtual channels.
 A virtual channel needs to be created on the server side and then connected to from the client side, any data passed through these channels is done so via the RDP connection. The .NET function AxMsRdpClient7NotSafeForScripting.SendOnVirtualChannel can only send string data of a limited length, for this reason the files are carved in to 1k chunks and base64 encoded on one side and then then base64 decoded into a stream on the other side.
 
+Sleipnir is designed to be used with Loki (https://github.com/nccgroup/loki) and Fenrir (https://github.com/nccgroup/Fenrir)
+
 ## Usage
 Sleipnir consists of a form with a progress bar and two buttons:
 
