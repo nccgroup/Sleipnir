@@ -1,6 +1,14 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
+//Released as open source by NCC Group Plc - http://www.nccgroup.com/
+//
+//Developed by Dave Spencer, david [dot] spencer [at] nccgroup [dot] com
+//
+//http://www.github.com/nccgroup/Sleipnir
+//
+//Released under AGPL see LICENSE for more information
+
 namespace Sleipnir
 {
     class WTSapi32
